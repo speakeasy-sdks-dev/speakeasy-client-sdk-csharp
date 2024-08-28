@@ -1,10 +1,10 @@
 lockVersion: 2.0.0
 id: f73d2126-985b-4d69-88ee-b7c69254d8bf
 management:
-  docChecksum: 312822a7ccdbf7c77dbbfeef49fb2053
+  docChecksum: f0f22122dd5bd3c72a6734c63d68c218
   docVersion: 0.4.0 .
-  speakeasyVersion: 1.349.0
-  generationVersion: 2.382.0
+  speakeasyVersion: internal
+  generationVersion: 2.404.10
   releaseVersion: 5.9.27
   configChecksum: 250e11ffdedf23732f3127edbe1703dd
   repoURL: https://github.com/speakeasy-api/speakeasy-client-sdk-csharp.git
@@ -13,10 +13,10 @@ management:
 features:
   csharp:
     additionalDependencies: 0.1.0
-    core: 3.9.13
+    core: 3.9.16
     deprecations: 2.81.2
     examples: 2.81.3
-    globalSecurity: 2.83.4
+    globalSecurity: 2.83.6
     globalSecurityCallbacks: 0.1.0
     globalServerURLs: 2.82.3
     globals: 2.82.1
@@ -410,11 +410,8 @@ generatedFiles:
   - docs/Models/Errors/Error.md
   - docs/Models/Shared/GenerateOpenApiSpecDiff.md
   - docs/Models/Shared/Api.md
-  - docs/Models/Shared/ApiInput.md
   - docs/Models/Shared/ApiEndpoint.md
-  - docs/Models/Shared/ApiEndpointInput.md
   - docs/Models/Shared/VersionMetadata.md
-  - docs/Models/Shared/VersionMetadataInput.md
   - docs/Models/Shared/Schema.md
   - docs/Models/Shared/ValueChange.md
   - docs/Models/Shared/SchemaDiff.md

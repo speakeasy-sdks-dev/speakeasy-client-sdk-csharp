@@ -45,15 +45,16 @@ var res = await sdk.Apis.DeleteApiAsync(req);
 | --------------------------------------------------------------- | --------------------------------------------------------------- | --------------------------------------------------------------- | --------------------------------------------------------------- |
 | `request`                                                       | [DeleteApiRequest](../../Models/Operations/DeleteApiRequest.md) | :heavy_check_mark:                                              | The request object to use for the request.                      |
 
-
 ### Response
 
 **[DeleteApiResponse](../../Models/Operations/DeleteApiResponse.md)**
+
 ### Errors
 
 | Error Object                            | Status Code                             | Content Type                            |
 | --------------------------------------- | --------------------------------------- | --------------------------------------- |
 | SpeakeasySDK.Models.Errors.SDKException | 4xx-5xx                                 | */*                                     |
+
 
 ## GenerateOpenApiSpec
 
@@ -87,15 +88,16 @@ var res = await sdk.Apis.GenerateOpenApiSpecAsync(req);
 | ----------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
 | `request`                                                                           | [GenerateOpenApiSpecRequest](../../Models/Operations/GenerateOpenApiSpecRequest.md) | :heavy_check_mark:                                                                  | The request object to use for the request.                                          |
 
-
 ### Response
 
 **[GenerateOpenApiSpecResponse](../../Models/Operations/GenerateOpenApiSpecResponse.md)**
+
 ### Errors
 
 | Error Object                            | Status Code                             | Content Type                            |
 | --------------------------------------- | --------------------------------------- | --------------------------------------- |
 | SpeakeasySDK.Models.Errors.SDKException | 4xx-5xx                                 | */*                                     |
+
 
 ## GeneratePostmanCollection
 
@@ -128,15 +130,16 @@ var res = await sdk.Apis.GeneratePostmanCollectionAsync(req);
 | ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
 | `request`                                                                                       | [GeneratePostmanCollectionRequest](../../Models/Operations/GeneratePostmanCollectionRequest.md) | :heavy_check_mark:                                                                              | The request object to use for the request.                                                      |
 
-
 ### Response
 
 **[GeneratePostmanCollectionResponse](../../Models/Operations/GeneratePostmanCollectionResponse.md)**
+
 ### Errors
 
 | Error Object                            | Status Code                             | Content Type                            |
 | --------------------------------------- | --------------------------------------- | --------------------------------------- |
 | SpeakeasySDK.Models.Errors.SDKException | 4xx-5xx                                 | */*                                     |
+
 
 ## GetAllApiVersions
 
@@ -170,15 +173,16 @@ var res = await sdk.Apis.GetAllApiVersionsAsync(req);
 | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
 | `request`                                                                       | [GetAllApiVersionsRequest](../../Models/Operations/GetAllApiVersionsRequest.md) | :heavy_check_mark:                                                              | The request object to use for the request.                                      |
 
-
 ### Response
 
 **[GetAllApiVersionsResponse](../../Models/Operations/GetAllApiVersionsResponse.md)**
+
 ### Errors
 
 | Error Object                            | Status Code                             | Content Type                            |
 | --------------------------------------- | --------------------------------------- | --------------------------------------- |
 | SpeakeasySDK.Models.Errors.SDKException | 4xx-5xx                                 | */*                                     |
+
 
 ## GetApis
 
@@ -210,15 +214,16 @@ var res = await sdk.Apis.GetApisAsync(req);
 | ----------------------------------------------------------- | ----------------------------------------------------------- | ----------------------------------------------------------- | ----------------------------------------------------------- |
 | `request`                                                   | [GetApisRequest](../../Models/Operations/GetApisRequest.md) | :heavy_check_mark:                                          | The request object to use for the request.                  |
 
-
 ### Response
 
 **[GetApisResponse](../../Models/Operations/GetApisResponse.md)**
+
 ### Errors
 
 | Error Object                            | Status Code                             | Content Type                            |
 | --------------------------------------- | --------------------------------------- | --------------------------------------- |
 | SpeakeasySDK.Models.Errors.SDKException | 4xx-5xx                                 | */*                                     |
+
 
 ## UpsertApi
 
@@ -257,10 +262,10 @@ var res = await sdk.Apis.UpsertApiAsync(req);
 | --------------------------------------------------------------- | --------------------------------------------------------------- | --------------------------------------------------------------- | --------------------------------------------------------------- |
 | `request`                                                       | [UpsertApiRequest](../../Models/Operations/UpsertApiRequest.md) | :heavy_check_mark:                                              | The request object to use for the request.                      |
 
-
 ### Response
 
 **[UpsertApiResponse](../../Models/Operations/UpsertApiResponse.md)**
+
 ### Errors
 
 | Error Object                            | Status Code                             | Content Type                            |

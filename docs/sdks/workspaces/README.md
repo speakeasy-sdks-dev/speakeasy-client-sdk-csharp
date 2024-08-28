@@ -1,6 +1,8 @@
 # Workspaces
 (*Workspaces*)
 
+## Overview
+
 ### Available Operations
 
 * [GetWorkspace](#getworkspace) - Get workspace
@@ -33,10 +35,10 @@ var res = await sdk.Workspaces.GetWorkspaceAsync(req);
 | --------------------------------------------------------------------- | --------------------------------------------------------------------- | --------------------------------------------------------------------- | --------------------------------------------------------------------- |
 | `request`                                                             | [GetWorkspaceRequest](../../Models/Operations/GetWorkspaceRequest.md) | :heavy_check_mark:                                                    | The request object to use for the request.                            |
 
-
 ### Response
 
 **[GetWorkspaceResponse](../../Models/Operations/GetWorkspaceResponse.md)**
+
 ### Errors
 
 | Error Object                            | Status Code                             | Content Type                            |

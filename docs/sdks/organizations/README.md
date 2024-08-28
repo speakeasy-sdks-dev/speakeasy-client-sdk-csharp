@@ -1,6 +1,8 @@
 # Organizations
 (*Organizations*)
 
+## Overview
+
 ### Available Operations
 
 * [CreateFreeTrial](#createfreetrial) - Create a free trial for an organization
@@ -27,15 +29,16 @@ var res = await sdk.Organizations.CreateFreeTrialAsync();
 // handle response
 ```
 
-
 ### Response
 
 **[CreateFreeTrialResponse](../../Models/Operations/CreateFreeTrialResponse.md)**
+
 ### Errors
 
 | Error Object                            | Status Code                             | Content Type                            |
 | --------------------------------------- | --------------------------------------- | --------------------------------------- |
 | SpeakeasySDK.Models.Errors.SDKException | 4xx-5xx                                 | */*                                     |
+
 
 ## GetOrganization
 
@@ -67,15 +70,16 @@ var res = await sdk.Organizations.GetOrganizationAsync(req);
 | --------------------------------------------------------------------------- | --------------------------------------------------------------------------- | --------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
 | `request`                                                                   | [GetOrganizationRequest](../../Models/Operations/GetOrganizationRequest.md) | :heavy_check_mark:                                                          | The request object to use for the request.                                  |
 
-
 ### Response
 
 **[GetOrganizationResponse](../../Models/Operations/GetOrganizationResponse.md)**
+
 ### Errors
 
 | Error Object                            | Status Code                             | Content Type                            |
 | --------------------------------------- | --------------------------------------- | --------------------------------------- |
 | SpeakeasySDK.Models.Errors.SDKException | 4xx-5xx                                 | */*                                     |
+
 
 ## GetOrganizationUsage
 
@@ -96,15 +100,16 @@ var res = await sdk.Organizations.GetOrganizationUsageAsync();
 // handle response
 ```
 
-
 ### Response
 
 **[GetOrganizationUsageResponse](../../Models/Operations/GetOrganizationUsageResponse.md)**
+
 ### Errors
 
 | Error Object                            | Status Code                             | Content Type                            |
 | --------------------------------------- | --------------------------------------- | --------------------------------------- |
 | SpeakeasySDK.Models.Errors.SDKException | 4xx-5xx                                 | */*                                     |
+
 
 ## GetOrganizations
 
@@ -125,10 +130,10 @@ var res = await sdk.Organizations.GetOrganizationsAsync();
 // handle response
 ```
 
-
 ### Response
 
 **[GetOrganizationsResponse](../../Models/Operations/GetOrganizationsResponse.md)**
+
 ### Errors
 
 | Error Object                            | Status Code                             | Content Type                            |

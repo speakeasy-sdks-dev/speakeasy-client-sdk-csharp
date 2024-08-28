@@ -41,15 +41,16 @@ var res = await sdk.Suggest.ApplyOperationIDsAsync(req);
 | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
 | `request`                                                                       | [ApplyOperationIDsRequest](../../Models/Operations/ApplyOperationIDsRequest.md) | :heavy_check_mark:                                                              | The request object to use for the request.                                      |
 
-
 ### Response
 
 **[ApplyOperationIDsResponse](../../Models/Operations/ApplyOperationIDsResponse.md)**
+
 ### Errors
 
 | Error Object                            | Status Code                             | Content Type                            |
 | --------------------------------------- | --------------------------------------- | --------------------------------------- |
 | SpeakeasySDK.Models.Errors.SDKException | 4xx-5xx                                 | */*                                     |
+
 
 ## SuggestOperationIDs
 
@@ -87,15 +88,16 @@ var res = await sdk.Suggest.SuggestOperationIDsAsync(req);
 | ----------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
 | `request`                                                                           | [SuggestOperationIDsRequest](../../Models/Operations/SuggestOperationIDsRequest.md) | :heavy_check_mark:                                                                  | The request object to use for the request.                                          |
 
-
 ### Response
 
 **[SuggestOperationIDsResponse](../../Models/Operations/SuggestOperationIDsResponse.md)**
+
 ### Errors
 
 | Error Object                            | Status Code                             | Content Type                            |
 | --------------------------------------- | --------------------------------------- | --------------------------------------- |
 | SpeakeasySDK.Models.Errors.SDKException | 4xx-5xx                                 | */*                                     |
+
 
 ## SuggestOperationIDsRegistry
 
@@ -129,10 +131,10 @@ var res = await sdk.Suggest.SuggestOperationIDsRegistryAsync(req);
 | --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
 | `request`                                                                                           | [SuggestOperationIDsRegistryRequest](../../Models/Operations/SuggestOperationIDsRegistryRequest.md) | :heavy_check_mark:                                                                                  | The request object to use for the request.                                                          |
 
-
 ### Response
 
 **[SuggestOperationIDsRegistryResponse](../../Models/Operations/SuggestOperationIDsRegistryResponse.md)**
+
 ### Errors
 
 | Error Object                            | Status Code                             | Content Type                            |

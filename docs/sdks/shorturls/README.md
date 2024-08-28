@@ -39,10 +39,10 @@ var res = await sdk.ShortURLs.CreateAsync(req);
 | ----------------------------------------------------------------- | ----------------------------------------------------------------- | ----------------------------------------------------------------- | ----------------------------------------------------------------- |
 | `request`                                                         | [CreateRequestBody](../../Models/Operations/CreateRequestBody.md) | :heavy_check_mark:                                                | The request object to use for the request.                        |
 
-
 ### Response
 
 **[CreateResponse](../../Models/Operations/CreateResponse.md)**
+
 ### Errors
 
 | Error Object                            | Status Code                             | Content Type                            |

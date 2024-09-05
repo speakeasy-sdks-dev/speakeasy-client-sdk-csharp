@@ -4,7 +4,7 @@ management:
   docChecksum: f0f22122dd5bd3c72a6734c63d68c218
   docVersion: 0.4.0 .
   speakeasyVersion: internal
-  generationVersion: 2.410.1
+  generationVersion: 2.410.0
   releaseVersion: 5.9.27
   configChecksum: 250e11ffdedf23732f3127edbe1703dd
   repoURL: https://github.com/speakeasy-api/speakeasy-client-sdk-csharp.git
@@ -820,6 +820,7 @@ examples:
   suggestOperationIDs:
     speakeasy-default-suggest-operation-I-ds:
       parameters:
+        query: {}
         header:
           x-session-id: "<value>"
       requestBody:

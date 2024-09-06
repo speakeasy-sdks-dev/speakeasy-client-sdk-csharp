@@ -53,8 +53,7 @@ var res = await sdk.Apis.DeleteApiAsync(req);
 
 | Error Object                            | Status Code                             | Content Type                            |
 | --------------------------------------- | --------------------------------------- | --------------------------------------- |
-| SpeakeasySDK.Models.Errors.SDKException | 4xx-5xx                                 | */*                                     |
-
+| SpeakeasySDK.Models.Errors.SDKException | 4xx-5xx                                 | \*/\*                                   |
 
 ## GenerateOpenApiSpec
 
@@ -96,8 +95,7 @@ var res = await sdk.Apis.GenerateOpenApiSpecAsync(req);
 
 | Error Object                            | Status Code                             | Content Type                            |
 | --------------------------------------- | --------------------------------------- | --------------------------------------- |
-| SpeakeasySDK.Models.Errors.SDKException | 4xx-5xx                                 | */*                                     |
-
+| SpeakeasySDK.Models.Errors.SDKException | 4xx-5xx                                 | \*/\*                                   |
 
 ## GeneratePostmanCollection
 
@@ -138,8 +136,7 @@ var res = await sdk.Apis.GeneratePostmanCollectionAsync(req);
 
 | Error Object                            | Status Code                             | Content Type                            |
 | --------------------------------------- | --------------------------------------- | --------------------------------------- |
-| SpeakeasySDK.Models.Errors.SDKException | 4xx-5xx                                 | */*                                     |
-
+| SpeakeasySDK.Models.Errors.SDKException | 4xx-5xx                                 | \*/\*                                   |
 
 ## GetAllApiVersions
 
@@ -181,8 +178,7 @@ var res = await sdk.Apis.GetAllApiVersionsAsync(req);
 
 | Error Object                            | Status Code                             | Content Type                            |
 | --------------------------------------- | --------------------------------------- | --------------------------------------- |
-| SpeakeasySDK.Models.Errors.SDKException | 4xx-5xx                                 | */*                                     |
-
+| SpeakeasySDK.Models.Errors.SDKException | 4xx-5xx                                 | \*/\*                                   |
 
 ## GetApis
 
@@ -222,8 +218,7 @@ var res = await sdk.Apis.GetApisAsync(req);
 
 | Error Object                            | Status Code                             | Content Type                            |
 | --------------------------------------- | --------------------------------------- | --------------------------------------- |
-| SpeakeasySDK.Models.Errors.SDKException | 4xx-5xx                                 | */*                                     |
-
+| SpeakeasySDK.Models.Errors.SDKException | 4xx-5xx                                 | \*/\*                                   |
 
 ## UpsertApi
 
@@ -270,4 +265,4 @@ var res = await sdk.Apis.UpsertApiAsync(req);
 
 | Error Object                            | Status Code                             | Content Type                            |
 | --------------------------------------- | --------------------------------------- | --------------------------------------- |
-| SpeakeasySDK.Models.Errors.SDKException | 4xx-5xx                                 | */*                                     |
+| SpeakeasySDK.Models.Errors.SDKException | 4xx-5xx                                 | \*/\*                                   |

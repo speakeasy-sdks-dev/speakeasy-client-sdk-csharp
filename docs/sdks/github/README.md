@@ -52,8 +52,7 @@ var res = await sdk.Github.CheckAccessAsync(req);
 
 | Error Object                            | Status Code                             | Content Type                            |
 | --------------------------------------- | --------------------------------------- | --------------------------------------- |
-| SpeakeasySDK.Models.Errors.SDKException | 4xx-5xx                                 | */*                                     |
-
+| SpeakeasySDK.Models.Errors.SDKException | 4xx-5xx                                 | \*/\*                                   |
 
 ## ConfigureCodeSamples
 
@@ -92,8 +91,7 @@ var res = await sdk.Github.ConfigureCodeSamplesAsync(req);
 
 | Error Object                            | Status Code                             | Content Type                            |
 | --------------------------------------- | --------------------------------------- | --------------------------------------- |
-| SpeakeasySDK.Models.Errors.SDKException | 4xx-5xx                                 | */*                                     |
-
+| SpeakeasySDK.Models.Errors.SDKException | 4xx-5xx                                 | \*/\*                                   |
 
 ## ConfigureMintlifyRepo
 
@@ -136,8 +134,7 @@ var res = await sdk.Github.ConfigureMintlifyRepoAsync(req);
 
 | Error Object                            | Status Code                             | Content Type                            |
 | --------------------------------------- | --------------------------------------- | --------------------------------------- |
-| SpeakeasySDK.Models.Errors.SDKException | 4xx-5xx                                 | */*                                     |
-
+| SpeakeasySDK.Models.Errors.SDKException | 4xx-5xx                                 | \*/\*                                   |
 
 ## ConfigureTarget
 
@@ -175,8 +172,7 @@ var res = await sdk.Github.ConfigureTargetAsync(req);
 
 | Error Object                            | Status Code                             | Content Type                            |
 | --------------------------------------- | --------------------------------------- | --------------------------------------- |
-| SpeakeasySDK.Models.Errors.SDKException | 4xx-5xx                                 | */*                                     |
-
+| SpeakeasySDK.Models.Errors.SDKException | 4xx-5xx                                 | \*/\*                                   |
 
 ## FetchPublishingPRs
 
@@ -216,8 +212,7 @@ var res = await sdk.Github.FetchPublishingPRsAsync(req);
 
 | Error Object                            | Status Code                             | Content Type                            |
 | --------------------------------------- | --------------------------------------- | --------------------------------------- |
-| SpeakeasySDK.Models.Errors.SDKException | 4xx-5xx                                 | */*                                     |
-
+| SpeakeasySDK.Models.Errors.SDKException | 4xx-5xx                                 | \*/\*                                   |
 
 ## GetAction
 
@@ -256,8 +251,7 @@ var res = await sdk.Github.GetActionAsync(req);
 
 | Error Object                            | Status Code                             | Content Type                            |
 | --------------------------------------- | --------------------------------------- | --------------------------------------- |
-| SpeakeasySDK.Models.Errors.SDKException | 4xx-5xx                                 | */*                                     |
-
+| SpeakeasySDK.Models.Errors.SDKException | 4xx-5xx                                 | \*/\*                                   |
 
 ## GithubCheckPublishingSecrets
 
@@ -295,8 +289,7 @@ var res = await sdk.Github.GithubCheckPublishingSecretsAsync(req);
 
 | Error Object                            | Status Code                             | Content Type                            |
 | --------------------------------------- | --------------------------------------- | --------------------------------------- |
-| SpeakeasySDK.Models.Errors.SDKException | 4xx-5xx                                 | */*                                     |
-
+| SpeakeasySDK.Models.Errors.SDKException | 4xx-5xx                                 | \*/\*                                   |
 
 ## GithubStorePublishingSecrets
 
@@ -334,8 +327,7 @@ var res = await sdk.Github.GithubStorePublishingSecretsAsync(req);
 
 | Error Object                            | Status Code                             | Content Type                            |
 | --------------------------------------- | --------------------------------------- | --------------------------------------- |
-| SpeakeasySDK.Models.Errors.SDKException | 4xx-5xx                                 | */*                                     |
-
+| SpeakeasySDK.Models.Errors.SDKException | 4xx-5xx                                 | \*/\*                                   |
 
 ## TriggerAction
 
@@ -374,4 +366,4 @@ var res = await sdk.Github.TriggerActionAsync(req);
 
 | Error Object                            | Status Code                             | Content Type                            |
 | --------------------------------------- | --------------------------------------- | --------------------------------------- |
-| SpeakeasySDK.Models.Errors.SDKException | 4xx-5xx                                 | */*                                     |
+| SpeakeasySDK.Models.Errors.SDKException | 4xx-5xx                                 | \*/\*                                   |

@@ -49,8 +49,7 @@ var res = await sdk.Reports.GetChangesReportSignedUrlAsync(req);
 
 | Error Object                            | Status Code                             | Content Type                            |
 | --------------------------------------- | --------------------------------------- | --------------------------------------- |
-| SpeakeasySDK.Models.Errors.SDKException | 4xx-5xx                                 | */*                                     |
-
+| SpeakeasySDK.Models.Errors.SDKException | 4xx-5xx                                 | \*/\*                                   |
 
 ## GetLintingReportSignedUrl
 
@@ -90,8 +89,7 @@ var res = await sdk.Reports.GetLintingReportSignedUrlAsync(req);
 
 | Error Object                            | Status Code                             | Content Type                            |
 | --------------------------------------- | --------------------------------------- | --------------------------------------- |
-| SpeakeasySDK.Models.Errors.SDKException | 4xx-5xx                                 | */*                                     |
-
+| SpeakeasySDK.Models.Errors.SDKException | 4xx-5xx                                 | \*/\*                                   |
 
 ## UploadReport
 
@@ -135,4 +133,4 @@ var res = await sdk.Reports.UploadReportAsync(req);
 
 | Error Object                            | Status Code                             | Content Type                            |
 | --------------------------------------- | --------------------------------------- | --------------------------------------- |
-| SpeakeasySDK.Models.Errors.SDKException | 4xx-5xx                                 | */*                                     |
+| SpeakeasySDK.Models.Errors.SDKException | 4xx-5xx                                 | \*/\*                                   |

@@ -51,8 +51,7 @@ var res = await sdk.Events.GetWorkspaceEventsByTargetAsync(req);
 | Error Object                            | Status Code                             | Content Type                            |
 | --------------------------------------- | --------------------------------------- | --------------------------------------- |
 | SpeakeasySDK.Models.Errors.Error        | 5XX                                     | application/json                        |
-| SpeakeasySDK.Models.Errors.SDKException | 4xx-5xx                                 | */*                                     |
-
+| SpeakeasySDK.Models.Errors.SDKException | 4xx-5xx                                 | \*/\*                                   |
 
 ## GetWorkspaceTargets
 
@@ -91,8 +90,7 @@ var res = await sdk.Events.GetWorkspaceTargetsAsync(req);
 | Error Object                            | Status Code                             | Content Type                            |
 | --------------------------------------- | --------------------------------------- | --------------------------------------- |
 | SpeakeasySDK.Models.Errors.Error        | 5XX                                     | application/json                        |
-| SpeakeasySDK.Models.Errors.SDKException | 4xx-5xx                                 | */*                                     |
-
+| SpeakeasySDK.Models.Errors.SDKException | 4xx-5xx                                 | \*/\*                                   |
 
 ## PostWorkspaceEvents
 
@@ -146,8 +144,7 @@ var res = await sdk.Events.PostWorkspaceEventsAsync(req);
 | Error Object                            | Status Code                             | Content Type                            |
 | --------------------------------------- | --------------------------------------- | --------------------------------------- |
 | SpeakeasySDK.Models.Errors.Error        | 5XX                                     | application/json                        |
-| SpeakeasySDK.Models.Errors.SDKException | 4xx-5xx                                 | */*                                     |
-
+| SpeakeasySDK.Models.Errors.SDKException | 4xx-5xx                                 | \*/\*                                   |
 
 ## SearchWorkspaceEvents
 
@@ -186,4 +183,4 @@ var res = await sdk.Events.SearchWorkspaceEventsAsync(req);
 | Error Object                            | Status Code                             | Content Type                            |
 | --------------------------------------- | --------------------------------------- | --------------------------------------- |
 | SpeakeasySDK.Models.Errors.Error        | 5XX                                     | application/json                        |
-| SpeakeasySDK.Models.Errors.SDKException | 4xx-5xx                                 | */*                                     |
+| SpeakeasySDK.Models.Errors.SDKException | 4xx-5xx                                 | \*/\*                                   |

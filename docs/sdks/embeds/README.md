@@ -49,8 +49,7 @@ var res = await sdk.Embeds.GetEmbedAccessTokenAsync(req);
 
 | Error Object                            | Status Code                             | Content Type                            |
 | --------------------------------------- | --------------------------------------- | --------------------------------------- |
-| SpeakeasySDK.Models.Errors.SDKException | 4xx-5xx                                 | */*                                     |
-
+| SpeakeasySDK.Models.Errors.SDKException | 4xx-5xx                                 | \*/\*                                   |
 
 ## GetValidEmbedAccessTokens
 
@@ -79,8 +78,7 @@ var res = await sdk.Embeds.GetValidEmbedAccessTokensAsync();
 
 | Error Object                            | Status Code                             | Content Type                            |
 | --------------------------------------- | --------------------------------------- | --------------------------------------- |
-| SpeakeasySDK.Models.Errors.SDKException | 4xx-5xx                                 | */*                                     |
-
+| SpeakeasySDK.Models.Errors.SDKException | 4xx-5xx                                 | \*/\*                                   |
 
 ## RevokeEmbedAccessToken
 
@@ -120,4 +118,4 @@ var res = await sdk.Embeds.RevokeEmbedAccessTokenAsync(req);
 
 | Error Object                            | Status Code                             | Content Type                            |
 | --------------------------------------- | --------------------------------------- | --------------------------------------- |
-| SpeakeasySDK.Models.Errors.SDKException | 4xx-5xx                                 | */*                                     |
+| SpeakeasySDK.Models.Errors.SDKException | 4xx-5xx                                 | \*/\*                                   |

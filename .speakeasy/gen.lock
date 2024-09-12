@@ -13,7 +13,7 @@ management:
 features:
   csharp:
     additionalDependencies: 0.1.0
-    core: 3.9.18
+    core: 3.9.19
     deprecations: 2.81.2
     examples: 2.81.3
     globalSecurity: 2.83.6
@@ -779,7 +779,7 @@ examples:
           apiID: "<value>"
           versionID: "<value>"
       requestBody:
-        multipart/form-data: {"file": {"": "your_file_here"}}
+        multipart/form-data: {"file": {"": "example.file"}}
       responses:
         default:
           application/json: {"message": "<value>", "status_code": 867990}
@@ -861,6 +861,7 @@ examples:
       responses:
         default:
           application/json: {"message": "<value>", "status_code": 820828}
+        "200": {}
   getAccessToken:
     speakeasy-default-get-access-token:
       parameters:
@@ -959,6 +960,7 @@ examples:
       responses:
         default:
           application/json: {"message": "<value>", "status_code": 192607}
+        "200": {}
   getAction:
     speakeasy-default-get-action:
       parameters:
@@ -968,6 +970,7 @@ examples:
       responses:
         default:
           application/json: {"message": "<value>", "status_code": 252330}
+        "200": {}
   githubCheckPublishingSecrets:
     speakeasy-default-github-check-publishing-secrets:
       parameters:
@@ -976,6 +979,7 @@ examples:
       responses:
         default:
           application/json: {"message": "<value>", "status_code": 445560}
+        "200": {}
   githubStorePublishingSecrets:
     speakeasy-default-github-store-publishing-secrets:
       requestBody:
@@ -1038,7 +1042,7 @@ examples:
   uploadReport:
     speakeasy-default-upload-report:
       requestBody:
-        multipart/form-data: {"file": {"": "your_file_here"}}
+        multipart/form-data: {"file": {"": "example.file"}}
       responses:
         "200":
           application/json: {"url": "http://earnest-upgrade.com"}
@@ -1063,10 +1067,11 @@ examples:
   suggestOperationIDs:
     speakeasy-default-suggest-operation-I-ds:
       parameters:
+        query: {}
         header:
           x-session-id: "<value>"
       requestBody:
-        multipart/form-data: {"schema": {"": "your_file_here"}}
+        multipart/form-data: {"schema": {"": "example.file"}}
       responses:
         "200":
           application/json: {"operation_ids": {"key": [], "key1": []}}

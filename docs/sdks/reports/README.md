@@ -112,7 +112,7 @@ UploadReportRequestBody req = new UploadReportRequestBody() {
     Data = new Report() {},
     File = new File() {
         Content = System.Text.Encoding.UTF8.GetBytes("0xA329C0ad85"),
-        FileName = "your_file_here",
+        FileName = "example.file",
     },
 };
 

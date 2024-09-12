@@ -71,7 +71,7 @@ SuggestOperationIDsRequest req = new SuggestOperationIDsRequest() {
     RequestBody = new SuggestOperationIDsRequestBody() {
         Schema = new Models.Operations.Schema() {
             Content = System.Text.Encoding.UTF8.GetBytes("0xb2de88c98a"),
-            FileName = "your_file_here",
+            FileName = "example.file",
         },
     },
     XSessionId = "<value>",

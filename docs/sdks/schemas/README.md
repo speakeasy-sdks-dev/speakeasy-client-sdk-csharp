@@ -338,7 +338,7 @@ RegisterSchemaRequest req = new RegisterSchemaRequest() {
     RequestBody = new RegisterSchemaRequestBody() {
         File = new RegisterSchemaFile() {
             Content = System.Text.Encoding.UTF8.GetBytes("0xCAFCA03e0e"),
-            FileName = "your_file_here",
+            FileName = "example.file",
         },
     },
     ApiID = "<value>",

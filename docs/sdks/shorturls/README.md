@@ -25,7 +25,7 @@ var sdk = new SDK(security: new Security() {
 });
 
 CreateRequestBody req = new CreateRequestBody() {
-    Url = "http://limp-pastry.org",
+    Url = "https://probable-heating.com/",
 };
 
 var res = await sdk.ShortURLs.CreateAsync(req);

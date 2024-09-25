@@ -113,11 +113,11 @@ var sdk = new SDK(security: new Security() {
 PostWorkspaceEventsRequest req = new PostWorkspaceEventsRequest() {
     RequestBody = new List<CliEvent>() {
         new CliEvent() {
-            CreatedAt = System.DateTime.Parse("2024-11-21T06:58:42.120Z"),
+            CreatedAt = System.DateTime.Parse("2024-11-21T06:58:41.592Z"),
             ExecutionId = "<value>",
             Id = "<id>",
-            InteractionType = SpeakeasySDK.Models.Shared.InteractionType.CliExec,
-            LocalStartedAt = System.DateTime.Parse("2024-05-07T12:35:47.182Z"),
+            InteractionType = SpeakeasySDK.Models.Shared.InteractionType.Run,
+            LocalStartedAt = System.DateTime.Parse("2023-02-23T15:36:59.809Z"),
             SpeakeasyApiKeyName = "<value>",
             SpeakeasyVersion = "<value>",
             Success = false,

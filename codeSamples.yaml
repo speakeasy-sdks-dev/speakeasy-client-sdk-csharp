@@ -64,7 +64,7 @@ actions:
                 ApiID = "<value>",
                 Api = new ApiInput() {
                     ApiId = "<value>",
-                    Description = "Synchronised 5th generation knowledge user",
+                    Description = "Synchronised leading edge utilisation",
                     VersionId = "<value>",
                 },
             };
@@ -154,7 +154,7 @@ actions:
             FindApiEndpointRequest req = new FindApiEndpointRequest() {
                 ApiID = "<value>",
                 VersionID = "<value>",
-                DisplayName = "Don.Strosin",
+                DisplayName = "Don_Kihn39",
             };
 
             var res = await sdk.ApiEndpoints.FindApiEndpointAsync(req);
@@ -226,10 +226,10 @@ actions:
                 ApiEndpointID = "<value>",
                 ApiEndpoint = new ApiEndpointInput() {
                     ApiEndpointId = "<value>",
-                    Description = "Public-key systematic attitude",
-                    DisplayName = "Camille.Schaefer11",
+                    Description = "Public-key background productivity",
+                    DisplayName = "Jailyn_Turner",
                     Method = "<value>",
-                    Path = "/Library",
+                    Path = "/home/user",
                     VersionId = "<value>",
                 },
             };
@@ -441,7 +441,7 @@ actions:
                 RequestBody = new RegisterSchemaRequestBody() {
                     File = new File() {
                         FileName = "example.file",
-                        Content = System.Text.Encoding.UTF8.GetBytes("0xCAFCA03e0e"),
+                        Content = System.Text.Encoding.UTF8.GetBytes("0xCFA30D144c"),
                     },
                 },
             };
@@ -1140,7 +1140,7 @@ actions:
                 Data = new Report() {},
                 File = new UploadReportFile() {
                     FileName = "example.file",
-                    Content = System.Text.Encoding.UTF8.GetBytes("0xA329C0ad85"),
+                    Content = System.Text.Encoding.UTF8.GetBytes("0xA2Ca85EFA5"),
                 },
             };
 
@@ -1204,7 +1204,7 @@ actions:
             });
 
             CreateRequestBody req = new CreateRequestBody() {
-                Url = "http://limp-pastry.org",
+                Url = "https://probable-heating.com/",
             };
 
             var res = await sdk.ShortURLs.CreateAsync(req);
@@ -1230,7 +1230,7 @@ actions:
                 RequestBody = new SuggestOpenAPIRequestBody() {
                     Schema = new Models.Operations.Schema() {
                         FileName = "example.file",
-                        Content = System.Text.Encoding.UTF8.GetBytes("0x0FbfeAEcc8"),
+                        Content = System.Text.Encoding.UTF8.GetBytes("0x0beEcB7cF6"),
                     },
                 },
             };
@@ -1284,16 +1284,16 @@ actions:
                         Info = new OASInfo() {
                             Title = "<value>",
                             Summary = "<value>",
-                            Description = "Operative impactful monitoring",
+                            Description = "Operative multi-tasking framework",
                             Version = "<value>",
                             License = new License() {},
                         },
                         Operations = new List<OASOperation>() {
                             new OASOperation() {
                                 Method = "<value>",
-                                Path = "/usr/libdata",
+                                Path = "/opt/share",
                                 OperationId = "<value>",
-                                Description = "Innovative tangible hierarchy",
+                                Description = "De-engineered system-worthy task-force",
                                 Tags = new List<string>() {
                                     "<value>",
                                 },
@@ -1305,7 +1305,7 @@ actions:
                         new Diagnostic() {
                             Message = "<value>",
                             Path = new List<string>() {
-                                "/etc/periodic",
+                                "/private/var",
                             },
                             Type = "<value>",
                         },
@@ -1469,8 +1469,8 @@ actions:
                         WorkspaceId = "<value>",
                         SpeakeasyApiKeyName = "<value>",
                         InteractionType = SpeakeasySDK.Models.Shared.InteractionType.Publish,
-                        LocalStartedAt = System.DateTime.Parse("2022-05-18T11:28:11.328Z"),
-                        CreatedAt = System.DateTime.Parse("2024-05-07T12:35:47.182Z"),
+                        LocalStartedAt = System.DateTime.Parse("2024-05-07T12:35:47.500Z"),
+                        CreatedAt = System.DateTime.Parse("2023-02-23T15:36:59.809Z"),
                         SpeakeasyVersion = "<value>",
                         Success = false,
                     },

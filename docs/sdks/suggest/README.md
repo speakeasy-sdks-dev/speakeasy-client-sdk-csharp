@@ -40,7 +40,7 @@ SuggestRequest req = new SuggestRequest() {
         },
         OasSummary = new OASSummary() {
             Info = new OASInfo() {
-                Description = "Object-based multi-state pricing structure",
+                Description = "Programmable fault-tolerant hierarchy",
                 License = new License() {},
                 Summary = "<value>",
                 Title = "<value>",
@@ -48,10 +48,10 @@ SuggestRequest req = new SuggestRequest() {
             },
             Operations = new List<OASOperation>() {
                 new OASOperation() {
-                    Description = "Innovative tangible hierarchy",
+                    Description = "De-engineered system-worthy task-force",
                     Method = "<value>",
                     OperationId = "<value>",
-                    Path = "/usr/include",
+                    Path = "/sbin",
                     Tags = new List<string>() {
                         "<value>",
                     },
@@ -104,7 +104,7 @@ var sdk = new SDK(security: new Security() {
 SuggestOpenAPIRequest req = new SuggestOpenAPIRequest() {
     RequestBody = new SuggestOpenAPIRequestBody() {
         Schema = new Models.Operations.Schema() {
-            Content = System.Text.Encoding.UTF8.GetBytes("0x0FbfeAEcc8"),
+            Content = System.Text.Encoding.UTF8.GetBytes("0x0beEcB7cF6"),
             FileName = "example.file",
         },
     },

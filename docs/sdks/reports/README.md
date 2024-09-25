@@ -111,7 +111,7 @@ var sdk = new SDK(security: new Security() {
 UploadReportRequestBody req = new UploadReportRequestBody() {
     Data = new Report() {},
     File = new File() {
-        Content = System.Text.Encoding.UTF8.GetBytes("0xA329C0ad85"),
+        Content = System.Text.Encoding.UTF8.GetBytes("0xA2Ca85EFA5"),
         FileName = "example.file",
     },
 };

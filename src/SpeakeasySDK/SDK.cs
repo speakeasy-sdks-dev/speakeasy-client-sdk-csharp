@@ -158,9 +158,9 @@ namespace SpeakeasySDK
 
         private const string _language = "csharp";
         private const string _sdkVersion = "5.10.0";
-        private const string _sdkGenVersion = "2.420.2";
+        private const string _sdkGenVersion = "2.422.22";
         private const string _openapiDocVersion = "0.4.0 .";
-        private const string _userAgent = "speakeasy-sdk/csharp 5.10.0 2.420.2 0.4.0 . SpeakeasySDK";
+        private const string _userAgent = "speakeasy-sdk/csharp 5.10.0 2.422.22 0.4.0 . SpeakeasySDK";
         private string _serverUrl = "";
         private SDKConfig.Server? _server = null;
         private ISpeakeasyHttpClient _client;

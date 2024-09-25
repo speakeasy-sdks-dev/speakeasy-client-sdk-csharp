@@ -245,7 +245,7 @@ var sdk = new SDK(security: new Security() {
 UpsertApiRequest req = new UpsertApiRequest() {
     Api = new ApiInput() {
         ApiId = "<value>",
-        Description = "Synchronised 5th generation knowledge user",
+        Description = "Synchronised leading edge utilisation",
         VersionId = "<value>",
     },
     ApiID = "<value>",

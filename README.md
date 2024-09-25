@@ -312,11 +312,13 @@ catch (Exception ex)
 {
     if (ex is Error)
     {
-        // handle exception
+        // Handle exception data
+        throw;
     }
-    else if (ex is SpeakeasySDK.Models.Errors.SDKException)
+    else if (ex is Models.Errors.SDKException)
     {
-        // handle exception
+        // Handle default exception
+        throw;
     }
 }
 ```
@@ -349,7 +351,9 @@ var res = await sdk.Auth.GetWorkspaceAccessAsync(
             exponent: 1.1
         ),
         retryConnectionErrors: false
-    ),req);
+    ),
+    req
+);
 
 // handle response
 ```

@@ -77,7 +77,7 @@ var sdk = new SDK(security: new Security() {
 
 FindApiEndpointRequest req = new FindApiEndpointRequest() {
     ApiID = "<value>",
-    DisplayName = "Don.Strosin",
+    DisplayName = "Don_Kihn39",
     VersionID = "<value>",
 };
 
@@ -334,10 +334,10 @@ var sdk = new SDK(security: new Security() {
 UpsertApiEndpointRequest req = new UpsertApiEndpointRequest() {
     ApiEndpoint = new ApiEndpointInput() {
         ApiEndpointId = "<value>",
-        Description = "Public-key systematic attitude",
-        DisplayName = "Camille.Schaefer11",
+        Description = "Public-key background productivity",
+        DisplayName = "Jailyn_Turner",
         Method = "<value>",
-        Path = "/Library",
+        Path = "/home/user",
         VersionId = "<value>",
     },
     ApiEndpointID = "<value>",

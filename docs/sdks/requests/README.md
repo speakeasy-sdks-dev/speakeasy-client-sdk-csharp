@@ -28,7 +28,7 @@ var sdk = new SDK(security: new Security() {
 });
 
 GenerateRequestPostmanCollectionRequest req = new GenerateRequestPostmanCollectionRequest() {
-    RequestID = "<value>",
+    RequestID = "<id>",
 };
 
 var res = await sdk.Requests.GenerateRequestPostmanCollectionAsync(req);
@@ -69,7 +69,7 @@ var sdk = new SDK(security: new Security() {
 });
 
 GetRequestFromEventLogRequest req = new GetRequestFromEventLogRequest() {
-    RequestID = "<value>",
+    RequestID = "<id>",
 };
 
 var res = await sdk.Requests.GetRequestFromEventLogAsync(req);

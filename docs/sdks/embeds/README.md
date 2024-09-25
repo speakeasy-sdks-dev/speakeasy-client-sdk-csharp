@@ -98,7 +98,7 @@ var sdk = new SDK(security: new Security() {
 });
 
 RevokeEmbedAccessTokenRequest req = new RevokeEmbedAccessTokenRequest() {
-    TokenID = "<value>",
+    TokenID = "<id>",
 };
 
 var res = await sdk.Embeds.RevokeEmbedAccessTokenAsync(req);

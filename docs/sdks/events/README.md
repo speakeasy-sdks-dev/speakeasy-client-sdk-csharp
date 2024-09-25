@@ -28,7 +28,7 @@ var sdk = new SDK(security: new Security() {
 });
 
 GetWorkspaceEventsByTargetRequest req = new GetWorkspaceEventsByTargetRequest() {
-    TargetID = "<value>",
+    TargetID = "<id>",
 };
 
 var res = await sdk.Events.GetWorkspaceEventsByTargetAsync(req);
@@ -114,14 +114,14 @@ PostWorkspaceEventsRequest req = new PostWorkspaceEventsRequest() {
     RequestBody = new List<CliEvent>() {
         new CliEvent() {
             CreatedAt = System.DateTime.Parse("2024-11-21T06:58:41.592Z"),
-            ExecutionId = "<value>",
+            ExecutionId = "<id>",
             Id = "<id>",
             InteractionType = SpeakeasySDK.Models.Shared.InteractionType.Run,
             LocalStartedAt = System.DateTime.Parse("2023-02-23T15:36:59.809Z"),
             SpeakeasyApiKeyName = "<value>",
             SpeakeasyVersion = "<value>",
             Success = false,
-            WorkspaceId = "<value>",
+            WorkspaceId = "<id>",
         },
     },
 };

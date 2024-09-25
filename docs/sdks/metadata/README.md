@@ -27,10 +27,10 @@ var sdk = new SDK(security: new Security() {
 });
 
 DeleteVersionMetadataRequest req = new DeleteVersionMetadataRequest() {
-    ApiID = "<value>",
+    ApiID = "<id>",
     MetaKey = "<value>",
     MetaValue = "<value>",
-    VersionID = "<value>",
+    VersionID = "<id>",
 };
 
 var res = await sdk.Metadata.DeleteVersionMetadataAsync(req);
@@ -71,8 +71,8 @@ var sdk = new SDK(security: new Security() {
 });
 
 GetVersionMetadataRequest req = new GetVersionMetadataRequest() {
-    ApiID = "<value>",
-    VersionID = "<value>",
+    ApiID = "<id>",
+    VersionID = "<id>",
 };
 
 var res = await sdk.Metadata.GetVersionMetadataAsync(req);
@@ -117,8 +117,8 @@ InsertVersionMetadataRequest req = new InsertVersionMetadataRequest() {
         MetaKey = "<value>",
         MetaValue = "<value>",
     },
-    ApiID = "<value>",
-    VersionID = "<value>",
+    ApiID = "<id>",
+    VersionID = "<id>",
 };
 
 var res = await sdk.Metadata.InsertVersionMetadataAsync(req);

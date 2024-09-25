@@ -31,7 +31,7 @@ var res = await sdk.Apis.GetApisAsync(req);
 
 A parameter is configured globally. This parameter may be set on the SDK client instance itself during initialization. When configured as an option during SDK initialization, This global value will be used as the default on the operations that use it. When such operations are called, there is a place in each to override the global value, if needed.
 
-For example, you can set `workspaceID` to `"<value>"` at SDK initialization and then you do not have to pass the same value on calls to operations like `GetWorkspace`. But if you want to do so you may, which will locally override the global setting. See the example code below for a demonstration.
+For example, you can set `workspaceID` to `"<id>"` at SDK initialization and then you do not have to pass the same value on calls to operations like `GetWorkspace`. But if you want to do so you may, which will locally override the global setting. See the example code below for a demonstration.
 
 
 ### Available Globals
@@ -159,7 +159,7 @@ try
 }
 catch (Exception ex)
 {
-    if (ex is Error)
+    if (ex is Models.Errors.Error)
     {
         // Handle exception data
         throw;
@@ -214,8 +214,8 @@ var sdk = new SDK(security: new Security() {
 });
 
 DeleteApiRequest req = new DeleteApiRequest() {
-    ApiID = "<value>",
-    VersionID = "<value>",
+    ApiID = "<id>",
+    VersionID = "<id>",
 };
 
 var res = await sdk.Apis.DeleteApiAsync(req);

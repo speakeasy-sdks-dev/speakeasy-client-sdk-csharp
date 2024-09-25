@@ -192,7 +192,7 @@ var sdk = new SDK(security: new Security() {
 });
 
 FetchPublishingPRsRequest req = new FetchPublishingPRsRequest() {
-    GenerateGenLockId = "<value>",
+    GenerateGenLockId = "<id>",
     Org = "<value>",
     Repo = "<value>",
 };
@@ -273,7 +273,7 @@ var sdk = new SDK(security: new Security() {
 });
 
 GithubCheckPublishingSecretsRequest req = new GithubCheckPublishingSecretsRequest() {
-    GenerateGenLockId = "<value>",
+    GenerateGenLockId = "<id>",
 };
 
 var res = await sdk.Github.GithubCheckPublishingSecretsAsync(req);
@@ -312,7 +312,7 @@ var sdk = new SDK(security: new Security() {
 });
 
 GithubStorePublishingSecretsRequest req = new GithubStorePublishingSecretsRequest() {
-    GenerateGenLockId = "<value>",
+    GenerateGenLockId = "<id>",
 };
 
 var res = await sdk.Github.GithubStorePublishingSecretsAsync(req);
@@ -350,7 +350,7 @@ var sdk = new SDK(security: new Security() {
 });
 
 GithubTriggerActionRequest req = new GithubTriggerActionRequest() {
-    GenLockId = "<value>",
+    GenLockId = "<id>",
     Org = "<value>",
     RepoName = "<value>",
 };

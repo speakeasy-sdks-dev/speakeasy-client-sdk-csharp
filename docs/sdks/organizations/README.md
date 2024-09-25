@@ -56,7 +56,7 @@ var sdk = new SDK(security: new Security() {
 });
 
 GetOrganizationRequest req = new GetOrganizationRequest() {
-    OrganizationID = "<value>",
+    OrganizationID = "<id>",
 };
 
 var res = await sdk.Organizations.GetOrganizationAsync(req);

@@ -30,8 +30,8 @@ var sdk = new SDK(security: new Security() {
 });
 
 DeleteApiRequest req = new DeleteApiRequest() {
-    ApiID = "<value>",
-    VersionID = "<value>",
+    ApiID = "<id>",
+    VersionID = "<id>",
 };
 
 var res = await sdk.Apis.DeleteApiAsync(req);
@@ -73,8 +73,8 @@ var sdk = new SDK(security: new Security() {
 });
 
 GenerateOpenApiSpecRequest req = new GenerateOpenApiSpecRequest() {
-    ApiID = "<value>",
-    VersionID = "<value>",
+    ApiID = "<id>",
+    VersionID = "<id>",
 };
 
 var res = await sdk.Apis.GenerateOpenApiSpecAsync(req);
@@ -115,8 +115,8 @@ var sdk = new SDK(security: new Security() {
 });
 
 GeneratePostmanCollectionRequest req = new GeneratePostmanCollectionRequest() {
-    ApiID = "<value>",
-    VersionID = "<value>",
+    ApiID = "<id>",
+    VersionID = "<id>",
 };
 
 var res = await sdk.Apis.GeneratePostmanCollectionAsync(req);
@@ -159,7 +159,7 @@ var sdk = new SDK(security: new Security() {
 });
 
 GetAllApiVersionsRequest req = new GetAllApiVersionsRequest() {
-    ApiID = "<value>",
+    ApiID = "<id>",
 };
 
 var res = await sdk.Apis.GetAllApiVersionsAsync(req);
@@ -244,11 +244,11 @@ var sdk = new SDK(security: new Security() {
 
 UpsertApiRequest req = new UpsertApiRequest() {
     Api = new ApiInput() {
-        ApiId = "<value>",
-        Description = "Synchronised leading edge utilisation",
-        VersionId = "<value>",
+        ApiId = "<id>",
+        Description = "consequently brr happily yowza however gosh investigate joyfully direct",
+        VersionId = "<id>",
     },
-    ApiID = "<value>",
+    ApiID = "<id>",
 };
 
 var res = await sdk.Apis.UpsertApiAsync(req);

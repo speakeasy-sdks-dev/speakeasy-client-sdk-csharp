@@ -32,9 +32,9 @@ var sdk = new SDK(security: new Security() {
 });
 
 DeleteSchemaRequest req = new DeleteSchemaRequest() {
-    ApiID = "<value>",
-    RevisionID = "<value>",
-    VersionID = "<value>",
+    ApiID = "<id>",
+    RevisionID = "<id>",
+    VersionID = "<id>",
 };
 
 var res = await sdk.Schemas.DeleteSchemaAsync(req);
@@ -75,8 +75,8 @@ var sdk = new SDK(security: new Security() {
 });
 
 DownloadSchemaRequest req = new DownloadSchemaRequest() {
-    ApiID = "<value>",
-    VersionID = "<value>",
+    ApiID = "<id>",
+    VersionID = "<id>",
 };
 
 var res = await sdk.Schemas.DownloadSchemaAsync(req);
@@ -117,9 +117,9 @@ var sdk = new SDK(security: new Security() {
 });
 
 DownloadSchemaRevisionRequest req = new DownloadSchemaRevisionRequest() {
-    ApiID = "<value>",
-    RevisionID = "<value>",
-    VersionID = "<value>",
+    ApiID = "<id>",
+    RevisionID = "<id>",
+    VersionID = "<id>",
 };
 
 var res = await sdk.Schemas.DownloadSchemaRevisionAsync(req);
@@ -161,8 +161,8 @@ var sdk = new SDK(security: new Security() {
 });
 
 GetSchemaRequest req = new GetSchemaRequest() {
-    ApiID = "<value>",
-    VersionID = "<value>",
+    ApiID = "<id>",
+    VersionID = "<id>",
 };
 
 var res = await sdk.Schemas.GetSchemaAsync(req);
@@ -203,10 +203,10 @@ var sdk = new SDK(security: new Security() {
 });
 
 GetSchemaDiffRequest req = new GetSchemaDiffRequest() {
-    ApiID = "<value>",
-    BaseRevisionID = "<value>",
-    TargetRevisionID = "<value>",
-    VersionID = "<value>",
+    ApiID = "<id>",
+    BaseRevisionID = "<id>",
+    TargetRevisionID = "<id>",
+    VersionID = "<id>",
 };
 
 var res = await sdk.Schemas.GetSchemaDiffAsync(req);
@@ -248,9 +248,9 @@ var sdk = new SDK(security: new Security() {
 });
 
 GetSchemaRevisionRequest req = new GetSchemaRevisionRequest() {
-    ApiID = "<value>",
-    RevisionID = "<value>",
-    VersionID = "<value>",
+    ApiID = "<id>",
+    RevisionID = "<id>",
+    VersionID = "<id>",
 };
 
 var res = await sdk.Schemas.GetSchemaRevisionAsync(req);
@@ -292,8 +292,8 @@ var sdk = new SDK(security: new Security() {
 });
 
 GetSchemasRequest req = new GetSchemasRequest() {
-    ApiID = "<value>",
-    VersionID = "<value>",
+    ApiID = "<id>",
+    VersionID = "<id>",
 };
 
 var res = await sdk.Schemas.GetSchemasAsync(req);
@@ -341,8 +341,8 @@ RegisterSchemaRequest req = new RegisterSchemaRequest() {
             FileName = "example.file",
         },
     },
-    ApiID = "<value>",
-    VersionID = "<value>",
+    ApiID = "<id>",
+    VersionID = "<id>",
 };
 
 var res = await sdk.Schemas.RegisterSchemaAsync(req);

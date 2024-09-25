@@ -177,6 +177,8 @@ generatedFiles:
   - docs/Models/Shared/Annotations.md
   - docs/Models/Shared/Api.md
   - docs/Models/Shared/ApiEndpoint.md
+  - docs/Models/Shared/ApiEndpointInput.md
+  - docs/Models/Shared/ApiInput.md
   - docs/Models/Shared/ApiKeyDetails.md
   - docs/Models/Shared/Auth.md
   - docs/Models/Shared/BoundedRequest.md
@@ -185,6 +187,7 @@ generatedFiles:
   - docs/Models/Shared/Diagnostic.md
   - docs/Models/Shared/EmbedAccessTokenResponse.md
   - docs/Models/Shared/EmbedToken.md
+  - docs/Models/Shared/Error.md
   - docs/Models/Shared/FeatureFlag.md
   - docs/Models/Shared/Filter.md
   - docs/Models/Shared/Filters.md
@@ -235,6 +238,7 @@ generatedFiles:
   - docs/Models/Shared/V2Descriptor.md
   - docs/Models/Shared/ValueChange.md
   - docs/Models/Shared/VersionMetadata.md
+  - docs/Models/Shared/VersionMetadataInput.md
   - docs/Models/Shared/WorkflowDocument.md
   - docs/Models/Shared/Workspace.md
   - docs/Models/Shared/WorkspaceFeatureFlagResponse.md
@@ -421,6 +425,7 @@ generatedFiles:
   - src/SpeakeasySDK/Models/Shared/Diagnostic.cs
   - src/SpeakeasySDK/Models/Shared/EmbedAccessTokenResponse.cs
   - src/SpeakeasySDK/Models/Shared/EmbedToken.cs
+  - src/SpeakeasySDK/Models/Shared/Error.cs
   - src/SpeakeasySDK/Models/Shared/FeatureFlag.cs
   - src/SpeakeasySDK/Models/Shared/Filter.cs
   - src/SpeakeasySDK/Models/Shared/Filters.cs

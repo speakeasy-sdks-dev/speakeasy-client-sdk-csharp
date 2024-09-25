@@ -40,7 +40,7 @@ SuggestRequest req = new SuggestRequest() {
         },
         OasSummary = new OASSummary() {
             Info = new OASInfo() {
-                Description = "Programmable fault-tolerant hierarchy",
+                Description = "kielbasa psst stitcher cannon devoted blindly apropos low",
                 License = new License() {},
                 Summary = "<value>",
                 Title = "<value>",
@@ -48,10 +48,10 @@ SuggestRequest req = new SuggestRequest() {
             },
             Operations = new List<OASOperation>() {
                 new OASOperation() {
-                    Description = "De-engineered system-worthy task-force",
+                    Description = "via apparatus gray whether opposite what",
                     Method = "<value>",
-                    OperationId = "<value>",
-                    Path = "/sbin",
+                    OperationId = "<id>",
+                    Path = "/sys",
                     Tags = new List<string>() {
                         "<value>",
                     },
@@ -60,7 +60,7 @@ SuggestRequest req = new SuggestRequest() {
         },
         SuggestionType = SpeakeasySDK.Models.Shared.SuggestRequestBodySuggestionType.MethodNames,
     },
-    XSessionId = "<value>",
+    XSessionId = "<id>",
 };
 
 var res = await sdk.Suggest.SuggestAsync(req);
@@ -108,7 +108,7 @@ SuggestOpenAPIRequest req = new SuggestOpenAPIRequest() {
             FileName = "example.file",
         },
     },
-    XSessionId = "<value>",
+    XSessionId = "<id>",
 };
 
 var res = await sdk.Suggest.SuggestOpenAPIAsync(req);
@@ -152,7 +152,7 @@ var sdk = new SDK(security: new Security() {
 SuggestOpenAPIRegistryRequest req = new SuggestOpenAPIRegistryRequest() {
     NamespaceName = "<value>",
     RevisionReference = "<value>",
-    XSessionId = "<value>",
+    XSessionId = "<id>",
 };
 
 var res = await sdk.Suggest.SuggestOpenAPIRegistryAsync(req);

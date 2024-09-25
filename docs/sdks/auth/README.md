@@ -26,7 +26,7 @@ using SpeakeasySDK.Models.Shared;
 var sdk = new SDK();
 
 GetAccessTokenRequest req = new GetAccessTokenRequest() {
-    WorkspaceId = "<value>",
+    WorkspaceId = "<id>",
 };
 
 var res = await sdk.Auth.GetAccessTokenAsync(req);

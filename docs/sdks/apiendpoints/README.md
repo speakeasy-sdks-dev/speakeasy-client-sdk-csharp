@@ -32,9 +32,9 @@ var sdk = new SDK(security: new Security() {
 });
 
 DeleteApiEndpointRequest req = new DeleteApiEndpointRequest() {
-    ApiEndpointID = "<value>",
-    ApiID = "<value>",
-    VersionID = "<value>",
+    ApiEndpointID = "<id>",
+    ApiID = "<id>",
+    VersionID = "<id>",
 };
 
 var res = await sdk.ApiEndpoints.DeleteApiEndpointAsync(req);
@@ -76,9 +76,9 @@ var sdk = new SDK(security: new Security() {
 });
 
 FindApiEndpointRequest req = new FindApiEndpointRequest() {
-    ApiID = "<value>",
+    ApiID = "<id>",
     DisplayName = "Don_Kihn39",
-    VersionID = "<value>",
+    VersionID = "<id>",
 };
 
 var res = await sdk.ApiEndpoints.FindApiEndpointAsync(req);
@@ -120,9 +120,9 @@ var sdk = new SDK(security: new Security() {
 });
 
 GenerateOpenApiSpecForApiEndpointRequest req = new GenerateOpenApiSpecForApiEndpointRequest() {
-    ApiEndpointID = "<value>",
-    ApiID = "<value>",
-    VersionID = "<value>",
+    ApiEndpointID = "<id>",
+    ApiID = "<id>",
+    VersionID = "<id>",
 };
 
 var res = await sdk.ApiEndpoints.GenerateOpenApiSpecForApiEndpointAsync(req);
@@ -163,9 +163,9 @@ var sdk = new SDK(security: new Security() {
 });
 
 GeneratePostmanCollectionForApiEndpointRequest req = new GeneratePostmanCollectionForApiEndpointRequest() {
-    ApiEndpointID = "<value>",
-    ApiID = "<value>",
-    VersionID = "<value>",
+    ApiEndpointID = "<id>",
+    ApiID = "<id>",
+    VersionID = "<id>",
 };
 
 var res = await sdk.ApiEndpoints.GeneratePostmanCollectionForApiEndpointAsync(req);
@@ -206,7 +206,7 @@ var sdk = new SDK(security: new Security() {
 });
 
 GetAllApiEndpointsRequest req = new GetAllApiEndpointsRequest() {
-    ApiID = "<value>",
+    ApiID = "<id>",
 };
 
 var res = await sdk.ApiEndpoints.GetAllApiEndpointsAsync(req);
@@ -247,8 +247,8 @@ var sdk = new SDK(security: new Security() {
 });
 
 GetAllForVersionApiEndpointsRequest req = new GetAllForVersionApiEndpointsRequest() {
-    ApiID = "<value>",
-    VersionID = "<value>",
+    ApiID = "<id>",
+    VersionID = "<id>",
 };
 
 var res = await sdk.ApiEndpoints.GetAllForVersionApiEndpointsAsync(req);
@@ -289,9 +289,9 @@ var sdk = new SDK(security: new Security() {
 });
 
 GetApiEndpointRequest req = new GetApiEndpointRequest() {
-    ApiEndpointID = "<value>",
-    ApiID = "<value>",
-    VersionID = "<value>",
+    ApiEndpointID = "<id>",
+    ApiID = "<id>",
+    VersionID = "<id>",
 };
 
 var res = await sdk.ApiEndpoints.GetApiEndpointAsync(req);
@@ -333,16 +333,16 @@ var sdk = new SDK(security: new Security() {
 
 UpsertApiEndpointRequest req = new UpsertApiEndpointRequest() {
     ApiEndpoint = new ApiEndpointInput() {
-        ApiEndpointId = "<value>",
-        Description = "Public-key background productivity",
-        DisplayName = "Jailyn_Turner",
+        ApiEndpointId = "<id>",
+        Description = "commandeer equate pish psst hoot ugh frankly supposing",
+        DisplayName = "Eliseo.Little15",
         Method = "<value>",
-        Path = "/home/user",
-        VersionId = "<value>",
+        Path = "/etc/defaults",
+        VersionId = "<id>",
     },
-    ApiEndpointID = "<value>",
-    ApiID = "<value>",
-    VersionID = "<value>",
+    ApiEndpointID = "<id>",
+    ApiID = "<id>",
+    VersionID = "<id>",
 };
 
 var res = await sdk.ApiEndpoints.UpsertApiEndpointAsync(req);
